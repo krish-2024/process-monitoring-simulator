@@ -1,21 +1,22 @@
-#Real-Time Process Monitoring Dashboard
+# Real-Time Process Monitoring Dashboard
 
--A simple Python tool that displays real-time system statistics including:
+- A simple Python tool that displays real-time system statistics including:
 
-	-CPU usage
+- CPU usage
 
-	-Memory usage
+- Memory usage
 
-	-Running processes (PID, name, CPU%, memory%)
+- Running processes (PID, name, CPU%, memory%)
 
--The project contains two versions:
+- The project contains two versions:
 
-	-CLI Dashboard (runs in terminal)
+- CLI Dashboard (runs in terminal)
 
-	-GUI Dashboard (using Tkinter)
+- GUI Dashboard (using Tkinter)
 
 
-##Project Structure
+## Project Structure
+```text
 process_monitoring_dashboard/
 │
 ├── cli.py                  # CLI entry point
@@ -28,6 +29,7 @@ process_monitoring_dashboard/
 │   └── dashboard_gui.py    # GUI dashboard logic
 │
 └── requirements.txt
+```
 
 ## Features
 -CLI Version
