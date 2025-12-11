@@ -32,15 +32,15 @@ process_monitoring_dashboard/
 ```
 
 ## Features
--CLI Version
+- CLI Version
 
-	-Displays real-time CPU and memory usage
+- Displays real-time CPU and memory usage
 
-	-Shows top running processes
+- Shows top running processes
 
-	-Allows killing a process via PID
+- Allows killing a process via PID
 
-	-Refreshes automatically
+- Refreshes automatically
 
 ## Run it using:
 ```bash
@@ -52,38 +52,38 @@ python cli.py --watch
 ```bash
 python cli.py --kill <PID>
 ```
--GUI Version (Tkinter)
+- GUI Version (Tkinter)
 
-	-Clean window showing CPU and memory usage
+- Clean window showing CPU and memory usage
 
-	-Auto-updating process table
+- Auto-updating process table
 
-	-Refreshes every second
+- Refreshes every second
 
 ## Run it using:
 ```bash
 python app.py
 ```
 
-##Installation
+## Installation
 
--Clone the repository:
+- Clone the repository:
 ```bash
 git clone <your-repo-url>
 cd process_monitoring_dashboard
 ```
 
--Install dependencies:
+- Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 # Technologies Used
 
--Python
+- Python
 
--psutil — system process & resource monitoring
+- psutil — system process & resource monitoring
 
--Tkinter — GUI interface
+- Tkinter — GUI interface
 
 -argparse — CLI support
