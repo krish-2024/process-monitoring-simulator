@@ -86,4 +86,4 @@ pip install -r requirements.txt
 
 - Tkinter — GUI interface
 
--argparse — CLI support
+- argparse — CLI support
